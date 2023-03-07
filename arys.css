@@ -1,0 +1,194 @@
+header{
+background-color:BlueViolet;
+display:flex;
+justify-content:center;
+height:100px;
+position: sticky;
+   top: 0;
+}
+*{
+margin: 0;
+padding: 0;
+}
+body{
+background:Gainsboro;
+color:white;
+font-size:30px;
+}
+.logo, .top_menu{
+margin-right: 40px;
+display:inline-block;
+vertical-align:middle;
+padding-top:20px;
+text-align:center;
+}
+.top_menu li{
+margin-right: 30px;
+display:inline-block;
+vertical-align:middle;
+}
+.top_menu a{
+vertical-align:middle;
+font-family:arial;
+font-size:30px;
+color:yellow;
+text-decoration:none;
+}
+.top_menu a:hover{
+color:DodgerBlue;
+}
+.logo h1{
+font-family:arial;
+font-size:40px;
+vertical-align:middle;
+color:white;
+}
+nav{
+ list-style-type:none;
+ margin: 0;
+ padding: 0;
+ width: 12%;
+ background-color: DodgerBlue;
+ position: fixed;
+ height: 100%;
+ overflow: auto;
+ display:flex;
+}
+.merca a{
+ display: block;
+ color: Snow;
+ padding: 16px 16px;
+ text-decoration: none;
+ opacity:1.0;
+}
+.merca a:hover{
+background-color:green;
+color:yellow;
+}
+ul{
+list-style-type:none;
+margin:10px;
+}
+h1{
+text-align:center;
+color:black;
+}
+p{
+text-align:center;
+color:black;
+}
+article {
+ padding: 100px;
+ width: 100%;
+ background-color:Azure;
+ height: 1400px;
+}
+img {
+width:500px;
+height:300px;
+margin:250px;
+padding:0;
+float:right;
+border:1px solid black;
+}
+footer{
+background-color:SlateGray;
+margin:0;
+width:100%;
+height:300px;
+padding:auto;
+
+}
+.arys{
+
+margin:20px;
+box-shadow:0 0 20px 2px rgba(0,0,0,.1);
+transition:1s;
+}
+
+.reg {
+margin-right: 90px;
+display:inline-block;
+vertical-align:middle;
+padding-top:20px;
+text-align:right;
+cursor:pointer;
+}
+.reg a:hover{
+color:red;
+}
+.reg a{
+color:DarkOrange;
+text-decoration:none;
+}
+.asyl{
+
+margin:20px;
+box-shadow:0 0 20px 2px rgba(0,0,0,.1);
+transition:1s;
+
+}
+
+.top_menu input[type=text]{
+	float: right;
+  padding: 6px;
+  margin-top: 6px;
+  margin-right: 17px;
+  border: none;
+  font-size: 20px;
+  margin-left:20px;
+}
+
+.asyl img{
+	width:1000px;
+height:400px;
+}
+.arys img{
+	width:500px;
+height:400px;
+}
+
+footer h2{
+  
+	text-align:center;
+}
+.Asol-menu a {
+  color: green;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+
+  }
+
+.Asol-menu {
+
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+li.Asol {
+  display: inline-block;
+}
+.Asol-menu a:hover {
+	background-color: DodgerBlue;
+	color:white;
+}
+
+.Asol:hover .Asol-menu {
+  display: block;
+}
+.Asol{
+	margin-top:6px;
+}
+.saikes img{
+	height:400px;
+	width:400px;
+	margin-bottom:20px;
+	margin-top:1px;
+	float:left;
+
+}
